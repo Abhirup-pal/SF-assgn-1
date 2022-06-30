@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+<link rel="stylesheet" href="portfolio.css">
+
+<body>
+
+    <div id="main_container">
+        <span id="menubutton">
+            <img src="menu_logo.png" alt="menu_logo" class="small" id="menu_view" onmouseover=display_menu()
+                onblur=hide_menu() onclick=click_to_display()>
+            <ul type="none" id="menu_expand_list">
+                <a href="#home" class="home-anchor home-anchor-menu">
+                    Home
+                </a>
+                <a href="#about" class="home-anchor home-anchor-menu">
+                    About
+                </a>
+                <a href="#projects" class="home-anchor home-anchor-menu">
+                    My Projects
+                </a>
+                <a href="#skills" class="home-anchor home-anchor-menu">
+                    Skills
+                </a>
+                <a href="#achievements" class="home-anchor home-anchor-menu">
+                    Achievements
+                </a>
+                <a href="#contact" class="home-anchor home-anchor-menu">
+                    Contact me
+                </a>
+            </ul>
+        </span>
+        <nav id="navbar">
+            <a href="#home" class="home-anchor">
+                Home
+            </a>
+            <a href="#about" class="home-anchor">
+                About
+            </a>
+            <a href="#projects" class="home-anchor">
+                My Projects
+            </a>
+            <a href="#skills" class="home-anchor">
+                Skills
+            </a>
+            <a href="#achievements" class="home-anchor">
+                Achievements
+            </a>
+            <a href="#contact" class="home-anchor">
+                Contact me
+            </a>
+        </nav>
+        <div id="home">
+            <div>
+                <p id="home_text">
+                    Hey there ... it's me,
+                </p>
+                <p id="home-name"> Abhirup </p>
+                <a href="#about" id="home_scroll">About me</a>
+            </div>
+            <img src="rTkJ7v-man-png-image.png" alt="" id="home-image">
+
+        </div>
+        <h2>About</h2>
+        <div id="about" class="card">
+
+
+            <span>
+                <ul type="none" class="list_style">
+                    <li>
+                        My name is Abhirup Pal
+                    </li>
+                    <li>
+                        I am an undergraduate student at IIT Kharagpur
+                    </li>
+                    <li>
+                        A web developer
+                    </li>
+                    <li>
+                        Love watching and playing cricket
+                    </li>
+                    <li>
+                        ...and a competitive coding enthusiast
+                    </li>
+                    <li>
+                        I love learning and exploring new things
+                    </li>
+                </ul>
+            </span>
+            <img src="images (21).jpeg" id="about_img" alt="">
+        </div>
+        <h2>
+            My Projects
+        </h2>
+        <div id="projects">
+            <div class="project-desc">
+                <img src="images (23).jpeg" alt="" class="bookimg">
+                <p>How to fix your laptop by restarting :) <br></p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur molestiae mollitia
+                temporibus
+                ratione deserunt voluptatum soluta officia atque totam aspernatur.
+            </div>
+            <div class="project-desc">
+                <img src="images (16).jpeg" alt="" class="bookimg">
+                <p>How to make a skeleton run <br></p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur molestiae mollitia
+                temporibus
+                ratione deserunt voluptatum soluta officia atque totam aspernatur.
+            </div>
+            <div class="project-desc">
+                <img src="download (3).jpeg" alt="" class="bookimg">
+                <p>How to win Squid Game<br></p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur molestiae mollitia
+                temporibus
+                ratione deserunt voluptatum soluta officia atque totam aspernatur.
+            </div>
+        </div>
+        <h2>
+            Skills
+        </h2>
+        <div id="skills" class="card">
+            <div class="grid-container">
+                <div> C++ </div>
+                <br>
+                <img src="download (4).png" alt="">
+            </div>
+            <div class="grid-container">
+
+                <div> HTML </div>
+                <br>
+                <img src="html.jpeg" alt="">
+            </div>
+            <div class="grid-container">
+
+                <div> CSS </div>
+                <br>
+                <img src="download (6).jpeg" alt="">
+            </div>
+            <div class="grid-container">
+                <div> Javascript </div>
+                <br>
+                <img src="js.jpeg" alt="">
+            </div>
+        </div>
+        <h2>
+            Achievements
+        </h2>
+
+        <div id="achievements" class="card" class="list_style">
+            <img src="images (26).jpeg" alt="" id="achievements_img">
+            <ul type="none">
+                <li>
+                    I got 99.76 percentile in JEE mains, 2021
+                </li>
+                <li>
+                    A rank of 5395 in JEE Advanced
+                </li>
+                <li>
+                    ...and a rank of 47 in WBJEE
+                </li>
+            </ul>
+        </div>
+
+
+        <footer id="contact" class="list_style">
+            <h2>Contact Me</h2>
+            <h3>Let's connect!!</h3>
+            <br>
+            <div class="social_links">
+                <a href="https://facebook.com"><img src="images (3).png" alt="facebook" class="social"></a>
+                <a href="instagram.com"><img src="download (2).png" alt="instagram" class="social"></a>
+                <a href="linkedin.com"><img src="download (3).png" alt="linkedin" class="social"></a>
+            </div>
+            <form action="">
+                <div class="bigdiv">
+                    <div class="smalldiv">
+                        <label for="name">
+                            Name <input type="text">
+                        </label>
+                        <label for="email">
+                            Email <input type="email" placeholder="Enter a valid email address">
+                        </label>
+                        <label for="Subject">
+                            Subject <input type="text">
+                        </label>
+                    </div>
+                    <label for="message">
+                        <input type="textarea" id="textarea" placeholder="Your message here">
+                    </label>
+                </div>
+                <button id="submit">
+                    Send
+                </button>
+            </form>
+        </footer>
+    </div>
+
+
+</body>
+<script src="portfolio.js"></script>
+
+</html>
